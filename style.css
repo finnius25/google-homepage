@@ -7,44 +7,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* Nav */
-.right-section {
-   float: right;
-    padding: 13px;
-    font-size: 90%;
+nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 170%;
 }
 
-.left-section {
-    float: left;
-    padding: 13px;
-    font-size: 90%;
+.Hero-Section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 500px;
+    margin: 50px;
 }
 
-.About {
-    padding: 8px;
-}
-
-.Store {
-    padding: 8px;
-}
-
-.Gmail {
-    padding: 8px;
-}
-
-.Images {
-    padding: 8px;
-}
-
-.Google-Apps {
-    padding: 8px;
-}
-
-.Username-Logo {
-    padding: 8px;
-}
-
-/* Hero Section */
-.logo {
-float: center;
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 170%;
 }
