@@ -10,4 +10,14 @@
 
 .right-section {
    float: right;
+   justify-content: space-between;
+   height: 100px;
+
+}
+
+.left-section {
+    float: left;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
 }
