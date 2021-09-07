@@ -9,8 +9,30 @@
 
 nav {
     display: flex;
-    justify-content: space-between;
     font-size: 170%;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-section1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-section2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.nav-section3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-section4 {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .Hero-Section {
