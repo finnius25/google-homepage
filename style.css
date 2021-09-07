@@ -10,8 +10,18 @@
 nav {
     display: flex;
     font-size: 170%;
-    height: 50px;
+    height: 120px;
     width: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.about {
+    margin-left: 35px;
+}
+
+.store {
+    padding-left: 35px;
 }
 
 .nav-section1 {
@@ -22,12 +32,21 @@ nav {
 .nav-section2 {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 90%;
+    padding: 20px;
+}
+
+.gmail {
+    padding: 20px;
+}
+
+.images {
+    padding: 20px;
 }
 
 .nav-section3 {
     display: flex;
-    justify-content: flex-end;
+    
 }
 
 .nav-section4 {
@@ -35,12 +54,33 @@ nav {
     justify-content: flex-end;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Hero-Section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 90vh;
+    height: 50vh;
     width: 100%;
 }
 
