@@ -7,6 +7,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
 nav {
     display: flex;
     font-size: 170%;
@@ -54,27 +59,6 @@ nav {
     justify-content: flex-end;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .Hero-Section {
     display: flex;
     flex-direction: column;
@@ -89,3 +73,22 @@ footer {
     justify-content: space-between;
     font-size: 170%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
