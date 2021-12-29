@@ -7,11 +7,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-a {
-    text-decoration: none !important;
-    color: black !important;
-}
-
 nav {
     display: inline-flex;
     align-items: center;
@@ -20,11 +15,15 @@ nav {
     height: 7vh;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
 #nav-section1 {
     display: flex;
     justify-content: flex-start;
     width: 50vw;
-    height: inherit;
     align-items: center;
 }
 
@@ -84,6 +83,61 @@ nav {
     height: 50vh;
     width: 100%;
 }
+
+.logo img {
+    height: 11rem;
+}
+
+.bar{
+    margin:0 auto;
+    width:575px;
+    border-radius:30px;
+    border:1px solid #dcdcdc;
+  }
+  .bar:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+  .bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
+  .searchbar{
+    height:45px;
+    border:none;
+    width:500px;
+    font-size:16px;
+    outline: none;
+    border-radius: inherit;
+  }
+  .voice{
+    height:20px;
+    position:relative;
+    top:5px;
+    left:10px;
+  }
+
+  .buttons{
+    margin-top:30px;
+  }
+  .button{
+    background-color: #f5f5f5;
+    border:none;
+    color:#707070;
+    font-size:15px;
+    padding: 10px 20px;
+    margin:5px;
+    border-radius:4px;
+    outline:none;
+  }
+  .button:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+  .button:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
 
 footer {
     display: flex;
